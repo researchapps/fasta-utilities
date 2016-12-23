@@ -64,8 +64,11 @@ Mount the data directory
 To specify inputs and outputs, and run with data (not tested)
 
 
-      singularity run -b /path/to/data:/data/ optitype.img perl in_list.pl [args]
+      singularity run -b /path/to/data:/data/ fasta-utils.img perl in_list.pl [args]
 
 
 
-## Generation of
+Shell into a (writable) container to test changes (that you should then add to the build file [Singularity](Singularity).
+
+
+      sudo singularity shell --writable fasta-utils.img
