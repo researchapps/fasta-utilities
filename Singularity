@@ -1,5 +1,5 @@
 BootStrap: docker
-From: perl:latest
+From:perl:latest
 
 %runscript 
     cd /opt/bin
